@@ -15,7 +15,7 @@ clear the terminal
 > clear
 
 create a folder
-> mkdir <foldername>
+> mkdir <span style="color:F43E5C;" ><foldername></span>
 
 create a file
 > touch <filename>
