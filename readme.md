@@ -1,5 +1,8 @@
 # tutorial notes
 
+#### symbols
+＜＞
+
 ## command 
 
 
@@ -15,10 +18,10 @@ clear the terminal
 > clear
 
 create a folder
-> mkdir <foldername>
+> mkdir  ＜foldername＞
 
 create a file
-> touch <filename>
+> touch  ＜filename＞
 
 ### git
 
@@ -27,15 +30,16 @@ install the git in the project folder ( note: this only have to run once )
 
 
 connect git with your github
-> git remote add origin <github-repo-url>
+> git remote add origin ＜github-repo-url＞
+
 > git push -u origin master
 
 add git user name to the project folder
-> git config --global user.name "<username>"
+> git config --global user.name "＜username＞"
 
 
 add git user email to the project folder
-> git config --global user.email "<email>"
+> git config --global user.email "＜email＞"
 
 
 check git user name 
@@ -47,7 +51,8 @@ check git user email
 
 save the progess in git  // regular
 > git add .
-> git commit -m "<messeage>"
+
+> git commit -m "＜messeage＞"
 
 upload the save file to github  // regular
 > git push
