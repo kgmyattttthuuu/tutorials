@@ -31,6 +31,7 @@ install the git in the project folder ( note: this only have to run once )
 
 connect git with your github
 > git remote add origin ＜github-repo-url＞
+
 > git push -u origin master
 
 add git user name to the project folder
@@ -50,6 +51,7 @@ check git user email
 
 save the progess in git  // regular
 > git add .
+
 > git commit -m "＜messeage＞"
 
 upload the save file to github  // regular
