@@ -61,6 +61,13 @@ upload the save file to github  // regular
 view save history // regular
 > git log --oneline -5
 
+check if your code is up to date with github
+> git status origin
+
+copy code from github
+fetch the code from github
+> git pull origin
+
 
 
 
