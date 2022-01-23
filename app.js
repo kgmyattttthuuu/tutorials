@@ -4,6 +4,23 @@ let inputBox = document.querySelector("#input-box");
 let updateButton = document.querySelector("#update-button");
 
 
+// let something = "something";
+
+// display.innerHTML = "Hi";
+// updateButton.innerHTML ="GOOD";
+
+
+
+// how to listen button click
+// updateButton.addEventListener("click", () => {
+//     // write code here
+   
+//     console.log(inputBox.value);
+//     display.innerHTML = "Banana Logic"
+// });
+
+
+
 updateButton.addEventListener("click", () => {
-    display.innerHTML = inputBox.value;
+    display.innerHTML =inputBox.value;
 })
