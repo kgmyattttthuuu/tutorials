@@ -22,8 +22,8 @@ let updateButton = document.querySelector("#update-button");
 
 
 updateButton.addEventListener("click", () => {
-    display.innerHTML =inputBox.value;
-})
+    display.innerHTML =inputBox.value
+});
 // function
 let hello = () => {
     console.log("hello")
@@ -37,14 +37,26 @@ hello();
 hello();
 
 
+
 let changeDisplayText = ()=> {
     display.innerHTML = "hello123"
 }
 
 // setTimeout(changeDisplayText,10000)
 
-updateButton.addEventListener("click", changeDisplayText);
+// updateButton.addEventListener("click", changeDisplayText);
 
-// updateButton.addEventListener("click",()=>{
+
+let updateDisplay= () => {
+    display.innerHTML = inputBox.value
+} 
+
+updateButton.addEventListener("click",updateDisplay);
+
+// updateButton.addEventListener("click", () => {
 //     display.innerHTML = inputBox.value
-// });
+// } );
+
+setTimeout(updateDisplay, 5000)
+
+
