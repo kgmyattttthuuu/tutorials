@@ -54,6 +54,8 @@ save the progess in git  // regular
 
 > git commit -m "＜messeage＞"
 
+
+
 upload the save file to github  // regular
 > git push
 
